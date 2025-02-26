@@ -1,0 +1,43 @@
+# Ignore Gradle build directory
+**/build/
+
+# Ignore IntelliJ IDEA project files
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore VSCode settings
+/.vscode/
+
+# Ignore Kotlin/Gradle cache files
+.gradle/
+**/out/
+/.gradle/
+
+# Ignore logs
+*.log
+**/logs/
+
+# Ignore compiled classes
+/bin/
+/classes/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+**/coverage/
+**/reports/
+**/test-results/
+
+# Ignore environment files
+.env
+
+# Ignore generated files
+/generated/
