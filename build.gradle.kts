@@ -10,10 +10,12 @@ plugins {
 }
 
 val junitVersion by extra("5.10.0")
+val testContainersVersion by extra("1.20.5")
 
 repositories { mavenCentral() }
 
 dependencies {
+  implementation("org.testcontainers:testcontainers:${rootProject.extra["testContainersVersion"]}")
   testImplementation(kotlin("test"))
   testImplementation("org.junit.jupiter:junit-jupiter:${rootProject.extra["junitVersion"]}")
 }
